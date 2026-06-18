@@ -1,8 +1,8 @@
-# SmartIndoor Hub
+# IoT-Climate-Telemetry-Dashboard
 
 <img width="1905" height="757" alt="image" src="https://github.com/user-attachments/assets/9851e6b3-a3be-4160-add5-5814910e2038" />
 
-This project creates an indoor monitoring dashboard using Grafana, ESP32, and ESPHome to track temperature, humidity, and light levels, leveraging real-time data collection, MQTT-based communication, and Prometheus for storage and visualization. The setup integrates an ESP32 microcontroller configured with ESPHome to gather sensor data, which is then transmitted via MQTT to a local broker. Grafana provides an intuitive interface to display this data in customizable dashboards, making it easy to monitor environmental conditions over time.
+This project creates a monitoring dashboard using Grafana, ESP32, and ESPHome to track temperature, humidity, and light levels, leveraging real-time data collection, MQTT-based communication, and Prometheus for storage and visualization. The setup integrates an ESP32 microcontroller configured with ESPHome to gather sensor data, which is then transmitted via MQTT to a local broker. Grafana provides an intuitive interface to display this data in customizable dashboards, making it easy to monitor environmental conditions over time.
 
 The system is designed for flexibility and scalability, utilizing Docker containers to manage services like the MQTT broker, Prometheus, and Grafana. This containerized approach simplifies deployment and ensures consistent performance across different environments. Users can adjust sensor update intervals and thresholds directly in the ESPHome configuration or fine-tune the dashboard layout in Grafana, tailoring the setup to specific needs such as home automation or environmental research.
 
